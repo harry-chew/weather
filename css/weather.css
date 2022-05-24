@@ -1,0 +1,52 @@
+* {
+  border : 0;
+  padding : 0;
+  margin : 0;
+
+}
+
+.page-wrapper {
+  width : 100vw;
+  height : 100vh;
+  display: flex;
+  margin: auto;
+  align-items: center;
+  background-color : rgba(0,0,0,0.5);
+}
+
+.hide {
+  display: none;
+}
+
+.weather-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+  border : 1px solid black;
+  background-color: white;
+  padding : 20px 0;
+}
+
+.weather-wrapper h1 {
+  width : 100%;
+  text-align: center;
+  padding : 20px 0;
+}
+
+.weather-wrapper img {
+  width : 25%;
+}
+
+.weather-wrapper p {
+  font-size : 2rem;
+}
+.input-wrapper {
+  width: 100%;
+  display: flex;
+  border-bottom : 1px solid black;
+}
+.input-wrapper input[type=text], .input-wrapper input[type=submit]{
+  font-size: 3rem;
+  padding : 5px;
+}
